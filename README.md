@@ -12,8 +12,10 @@ iOSPing工具类
   self.pingTester = [[XFPingTester alloc] initWithHostName:@"www.baidu.com"];
   self.pingTester.delegate = self;
   [self.pingTester startPing];
-实现委托.
+
+
 #pragma mark - XFPingDelegate
+
 - (void)didPingSucccessWithHostName:(NSString *)hostName withTime:(float)time withError:(NSError *)error;
 {
     if (error)
