@@ -7,11 +7,13 @@ iOSPing工具类
 引入头文件
 #import "XFPingTester.h"
 设置属性变量，并在controller 上面实现代理。
-  @property(nonatomic, strong) XFPingTester* pingTester;
-  //ping
-  self.pingTester = [[XFPingTester alloc] initWithHostName:@"www.baidu.com"];
-  self.pingTester.delegate = self;
-  [self.pingTester startPing];
+
+@property(nonatomic, strong) XFPingTester *pingTester;
+  
+  
+    self.pingTester = [[XFPingTester alloc] initWithHostName:@"www.baidu.com"];
+    self.pingTester.delegate = self;
+    [self.pingTester startPing];
 
 
 #pragma mark - XFPingDelegate
