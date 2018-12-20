@@ -27,7 +27,7 @@
     [self.pingTester startPing];
 }
 
-#pragma mark ping的回调
+#pragma mark - XFPingDelegate
 - (void)didPingSucccessWithHostName:(NSString *)hostName withTime:(float)time withError:(NSError *)error;
 {
     if (error)
