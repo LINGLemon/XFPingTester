@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF2B51721CB3D640056FBFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B51621CB3D640056FBFD /* AppDelegate.m */; };
+		BEF2B51A21CB3D640056FBFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B51921CB3D640056FBFD /* ViewController.m */; };
+		BEF2B51D21CB3D640056FBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF2B51B21CB3D640056FBFD /* Main.storyboard */; };
+		BEF2B51F21CB3D650056FBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF2B51E21CB3D650056FBFD /* Assets.xcassets */; };
+		BEF2B52221CB3D650056FBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF2B52021CB3D650056FBFD /* LaunchScreen.storyboard */; };
+		BEF2B52521CB3D650056FBFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B52421CB3D650056FBFD /* main.m */; };
+		BEF2B52F21CB3D650056FBFD /* XFPingTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B52E21CB3D650056FBFD /* XFPingTesterTests.m */; };
+		BEF2B53A21CB3D650056FBFD /* XFPingTesterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B53921CB3D650056FBFD /* XFPingTesterUITests.m */; };
+		BEF2B54C21CB3E040056FBFD /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B54A21CB3E030056FBFD /* SimplePing.m */; };
+		BEF2B54D21CB3E040056FBFD /* XFPingTester.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF2B54B21CB3E030056FBFD /* XFPingTester.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF2B52B21CB3D650056FBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF2B50A21CB3D640056FBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF2B51121CB3D640056FBFD;
+			remoteInfo = XFPingTester;
+		};
+		BEF2B53621CB3D650056FBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF2B50A21CB3D640056FBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF2B51121CB3D640056FBFD;
+			remoteInfo = XFPingTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF2B51221CB3D640056FBFD /* XFPingTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFPingTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF2B51521CB3D640056FBFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEF2B51621CB3D640056FBFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEF2B51821CB3D640056FBFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEF2B51921CB3D640056FBFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEF2B51C21CB3D640056FBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF2B51E21CB3D650056FBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF2B52121CB3D650056FBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF2B52321CB3D650056FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF2B52421CB3D650056FBFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF2B52A21CB3D650056FBFD /* XFPingTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFPingTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF2B52E21CB3D650056FBFD /* XFPingTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFPingTesterTests.m; sourceTree = "<group>"; };
+		BEF2B53021CB3D650056FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF2B53521CB3D650056FBFD /* XFPingTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFPingTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF2B53921CB3D650056FBFD /* XFPingTesterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFPingTesterUITests.m; sourceTree = "<group>"; };
+		BEF2B53B21CB3D650056FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF2B54821CB3E030056FBFD /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		BEF2B54921CB3E030056FBFD /* XFPingTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFPingTester.h; sourceTree = "<group>"; };
+		BEF2B54A21CB3E030056FBFD /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		BEF2B54B21CB3E030056FBFD /* XFPingTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFPingTester.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF2B50F21CB3D640056FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2B52721CB3D650056FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2B53221CB3D650056FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF2B50921CB3D640056FBFD = {
+			isa = PBXGroup;
+			children = (
+				BEF2B51421CB3D640056FBFD /* XFPingTester */,
+				BEF2B52D21CB3D650056FBFD /* XFPingTesterTests */,
+				BEF2B53821CB3D650056FBFD /* XFPingTesterUITests */,
+				BEF2B51321CB3D640056FBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF2B51321CB3D640056FBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2B51221CB3D640056FBFD /* XFPingTester.app */,
+				BEF2B52A21CB3D650056FBFD /* XFPingTesterTests.xctest */,
+				BEF2B53521CB3D650056FBFD /* XFPingTesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF2B51421CB3D640056FBFD /* XFPingTester */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2B54721CB3E030056FBFD /* PingTool */,
+				BEF2B51521CB3D640056FBFD /* AppDelegate.h */,
+				BEF2B51621CB3D640056FBFD /* AppDelegate.m */,
+				BEF2B51821CB3D640056FBFD /* ViewController.h */,
+				BEF2B51921CB3D640056FBFD /* ViewController.m */,
+				BEF2B51B21CB3D640056FBFD /* Main.storyboard */,
+				BEF2B51E21CB3D650056FBFD /* Assets.xcassets */,
+				BEF2B52021CB3D650056FBFD /* LaunchScreen.storyboard */,
+				BEF2B52321CB3D650056FBFD /* Info.plist */,
+				BEF2B52421CB3D650056FBFD /* main.m */,
+			);
+			path = XFPingTester;
+			sourceTree = "<group>";
+		};
+		BEF2B52D21CB3D650056FBFD /* XFPingTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2B52E21CB3D650056FBFD /* XFPingTesterTests.m */,
+				BEF2B53021CB3D650056FBFD /* Info.plist */,
+			);
+			path = XFPingTesterTests;
+			sourceTree = "<group>";
+		};
+		BEF2B53821CB3D650056FBFD /* XFPingTesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2B53921CB3D650056FBFD /* XFPingTesterUITests.m */,
+				BEF2B53B21CB3D650056FBFD /* Info.plist */,
+			);
+			path = XFPingTesterUITests;
+			sourceTree = "<group>";
+		};
+		BEF2B54721CB3E030056FBFD /* PingTool */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2B54821CB3E030056FBFD /* SimplePing.h */,
+				BEF2B54A21CB3E030056FBFD /* SimplePing.m */,
+				BEF2B54921CB3E030056FBFD /* XFPingTester.h */,
+				BEF2B54B21CB3E030056FBFD /* XFPingTester.m */,
+			);
+			path = PingTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF2B51121CB3D640056FBFD /* XFPingTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2B53E21CB3D650056FBFD /* Build configuration list for PBXNativeTarget "XFPingTester" */;
+			buildPhases = (
+				BEF2B50E21CB3D640056FBFD /* Sources */,
+				BEF2B50F21CB3D640056FBFD /* Frameworks */,
+				BEF2B51021CB3D640056FBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFPingTester;
+			productName = XFPingTester;
+			productReference = BEF2B51221CB3D640056FBFD /* XFPingTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF2B52921CB3D650056FBFD /* XFPingTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2B54121CB3D650056FBFD /* Build configuration list for PBXNativeTarget "XFPingTesterTests" */;
+			buildPhases = (
+				BEF2B52621CB3D650056FBFD /* Sources */,
+				BEF2B52721CB3D650056FBFD /* Frameworks */,
+				BEF2B52821CB3D650056FBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF2B52C21CB3D650056FBFD /* PBXTargetDependency */,
+			);
+			name = XFPingTesterTests;
+			productName = XFPingTesterTests;
+			productReference = BEF2B52A21CB3D650056FBFD /* XFPingTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF2B53421CB3D650056FBFD /* XFPingTesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2B54421CB3D650056FBFD /* Build configuration list for PBXNativeTarget "XFPingTesterUITests" */;
+			buildPhases = (
+				BEF2B53121CB3D650056FBFD /* Sources */,
+				BEF2B53221CB3D650056FBFD /* Frameworks */,
+				BEF2B53321CB3D650056FBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF2B53721CB3D650056FBFD /* PBXTargetDependency */,
+			);
+			name = XFPingTesterUITests;
+			productName = XFPingTesterUITests;
+			productReference = BEF2B53521CB3D650056FBFD /* XFPingTesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF2B50A21CB3D640056FBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lingxuanfeng;
+				TargetAttributes = {
+					BEF2B51121CB3D640056FBFD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BEF2B52921CB3D650056FBFD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BEF2B51121CB3D640056FBFD;
+					};
+					BEF2B53421CB3D650056FBFD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BEF2B51121CB3D640056FBFD;
+					};
+				};
+			};
+			buildConfigurationList = BEF2B50D21CB3D640056FBFD /* Build configuration list for PBXProject "XFPingTester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF2B50921CB3D640056FBFD;
+			productRefGroup = BEF2B51321CB3D640056FBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF2B51121CB3D640056FBFD /* XFPingTester */,
+				BEF2B52921CB3D650056FBFD /* XFPingTesterTests */,
+				BEF2B53421CB3D650056FBFD /* XFPingTesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF2B51021CB3D640056FBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2B52221CB3D650056FBFD /* LaunchScreen.storyboard in Resources */,
+				BEF2B51F21CB3D650056FBFD /* Assets.xcassets in Resources */,
+				BEF2B51D21CB3D640056FBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2B52821CB3D650056FBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2B53321CB3D650056FBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF2B50E21CB3D640056FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2B54D21CB3E040056FBFD /* XFPingTester.m in Sources */,
+				BEF2B51A21CB3D640056FBFD /* ViewController.m in Sources */,
+				BEF2B52521CB3D650056FBFD /* main.m in Sources */,
+				BEF2B51721CB3D640056FBFD /* AppDelegate.m in Sources */,
+				BEF2B54C21CB3E040056FBFD /* SimplePing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2B52621CB3D650056FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2B52F21CB3D650056FBFD /* XFPingTesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF2B53121CB3D650056FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2B53A21CB3D650056FBFD /* XFPingTesterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF2B52C21CB3D650056FBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF2B51121CB3D640056FBFD /* XFPingTester */;
+			targetProxy = BEF2B52B21CB3D650056FBFD /* PBXContainerItemProxy */;
+		};
+		BEF2B53721CB3D650056FBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF2B51121CB3D640056FBFD /* XFPingTester */;
+			targetProxy = BEF2B53621CB3D650056FBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF2B51B21CB3D640056FBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF2B51C21CB3D640056FBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF2B52021CB3D650056FBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF2B52121CB3D650056FBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF2B53C21CB3D650056FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEF2B53D21CB3D650056FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF2B53F21CB3D650056FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQP5893FJ;
+				INFOPLIST_FILE = XFPingTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.datatransformpci.XFPingTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF2B54021CB3D650056FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQP5893FJ;
+				INFOPLIST_FILE = XFPingTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.datatransformpci.XFPingTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF2B54221CB3D650056FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQP5893FJ;
+				INFOPLIST_FILE = XFPingTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.datatransformpci.XFPingTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFPingTester.app/XFPingTester";
+			};
+			name = Debug;
+		};
+		BEF2B54321CB3D650056FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQP5893FJ;
+				INFOPLIST_FILE = XFPingTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.datatransformpci.XFPingTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFPingTester.app/XFPingTester";
+			};
+			name = Release;
+		};
+		BEF2B54521CB3D650056FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQP5893FJ;
+				INFOPLIST_FILE = XFPingTesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.datatransformpci.XFPingTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XFPingTester;
+			};
+			name = Debug;
+		};
+		BEF2B54621CB3D650056FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQP5893FJ;
+				INFOPLIST_FILE = XFPingTesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.datatransformpci.XFPingTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XFPingTester;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF2B50D21CB3D640056FBFD /* Build configuration list for PBXProject "XFPingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2B53C21CB3D650056FBFD /* Debug */,
+				BEF2B53D21CB3D650056FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2B53E21CB3D650056FBFD /* Build configuration list for PBXNativeTarget "XFPingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2B53F21CB3D650056FBFD /* Debug */,
+				BEF2B54021CB3D650056FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2B54121CB3D650056FBFD /* Build configuration list for PBXNativeTarget "XFPingTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2B54221CB3D650056FBFD /* Debug */,
+				BEF2B54321CB3D650056FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2B54421CB3D650056FBFD /* Build configuration list for PBXNativeTarget "XFPingTesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2B54521CB3D650056FBFD /* Debug */,
+				BEF2B54621CB3D650056FBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF2B50A21CB3D640056FBFD /* Project object */;
+}
