@@ -36,7 +36,7 @@
     }
     else
     {
-        NSLog(@"%@", [[NSString stringWithFormat:@"%d", (int)time] stringByAppendingString:@"ms"]);
+        NSLog(@"hostName：%@, %@", hostName, [[NSString stringWithFormat:@"%d", (int)time] stringByAppendingString:@"ms"]);
     }
 }
 
